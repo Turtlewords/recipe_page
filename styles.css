@@ -1,0 +1,59 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+
+    --brown-800: hsl(14, 45%, 36%);
+
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'outfit';
+    
+    src: url('assets\fonts\outfit\Outfit-VariableFont_wght.ttf') format(ttf-variations);
+    font-weight: 400 700;
+    font-style: normal;
+}
+
+
+/* Structure */
+
+body {
+    font-family: 'outfit';
+    width: 100%;
+    background-color: var(--stone-100);
+}
+
+main {
+    max-width: 40%;
+    margin: 4% auto;
+    background-color: var(--white);
+    padding: 3%;
+}
+
+section {
+    padding: 2%;
+    margin: 3%;
+}
+
+
+
+
+/* Images */
+
+#omelette-img {
+    display: block;
+    width: 98%;
+    margin: 1% auto;
+}

@@ -43,8 +43,8 @@ body {
 
 main {
     
-    max-width: 45%;
-    margin: 4% auto;
+    max-width: 50%;
+    margin: 8% auto 2%;
     background-color: var(--white);
     padding: 1%;
     border-radius: 12px;
@@ -93,12 +93,17 @@ table {
 
 /* Typography */
 
-h1, h2, h3 {
+h1, h2 {
+    font-family: "Young Serif", serif;
+}
+
+#prep-head {
+    font-size: 1.2em;
     font-family: "Young Serif", serif;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.4em;
     margin-top: 0;
 }
 
@@ -108,6 +113,7 @@ color: var(--rose-800);
 
 h2 {
     color: var(--brown-800);
+    font-size: 1.8em;
 }
 
 ::marker {
